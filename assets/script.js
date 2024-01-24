@@ -1,5 +1,9 @@
 console.log(dayjs())
 
+$('body').attr('style', 'background: lightslategrey;')
+$('header').attr('style', 'background-color: hsla(50, 33%, 25%, .75);')
+$('.hour').attr('style', 'background-color: orange; border-radius: 15px 0 0 15px;')
+
 $(() => {
 
 const currentHour = dayjs().format('H')
@@ -13,14 +17,14 @@ hourlyColor = () => {
     })}
 
 textEntry = () => {
-    $('.saveBtn').on('click', function() {
+    $('.saveBtn').on('click', () => {
         const key = $(this).parent().attr('id')
         const value = $(this).siblings('.description').val()
         localStorage.setItem(key, value)
     })}
 
 refreshColor = () => {
-    $('.time-block').each(function() {
+    $('.time-block').each(() => {
         const blockHour = parseInt(this.id)
         if (blockHour == currentHour) {
             $(this).removeClass('past future').addClass('present')
@@ -30,7 +34,7 @@ refreshColor = () => {
             $(this).removeClass('past present').addClass('future')
         }
     })}
-    $('.time-block').each(function() {
+    $('.time-block').each(() => {
         const key = $(this).attr('id')
         const value = localStorage.getItem(key)
         $(this).children('.description').val(value)
