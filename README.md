@@ -1,12 +1,10 @@
 # Daily-Work-Scheduler
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
-
 ## Description
 
 The main goal of this project is to Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and will feature dynamically updated HTML and CSS powered by jQuery. It will also have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 <br>
-After completion of the project, I have a better understanding on declaring/calling variables, functions, arrow-functions, if-statments, callbacks and for loops. I also learned some better ways to refactor the JavaScript code, thus making the code easier to read and more modular!
+After completion of the project, I have a better understanding of API's and how to implement the interfaces into the HTML file. I also learned Day.js and really enjoyed the ability to modify the format. And lastly I learned some better ways to refactor the JavaScript code by using jQuery, thus making the code shorter and more modular!
 
 ## Table of Contents
 
@@ -70,7 +68,7 @@ Please refer to the LICENSE in the repo.
 
 ## Badges!
 
-[Static Badge](https://img.shields.io/badge/HTML%20-67%25%20-orange)
+![Static Badge](https://img.shields.io/badge/HTML%20-67%25%20-orange)
 <br>
 
 ![Static Badge](https://img.shields.io/badge/CSS%20-12%25%20-purple)
@@ -91,3 +89,13 @@ HTML template with semantic elements, save buttons, etc.
 In order to test, run the program using the "Open with Live Server" Exstension.
 <br>
 I would also have DevTools open to see the logs.
+<br>
+
+Here are all of the API's used with a reference to their URL.
+
+If any of the API's fail, feel free to insert the updated cdn in the HTML file.
+[Day.js](https://day.js.org/en/)
+[jQuery](https://jquery.com/)
+[bootstrap](https://getbootstrap.com/)
+[fontAwesome](https://fontawesome.com/)
+[googleAPIs](https://fonts.google.com/)
