@@ -36,7 +36,7 @@ Steps Include:
 
 Here's what the expected output should be:
 
-![alt text](assets/Images/screenshot.png)
+![alt text](/assets/images/screenshot.png)
 
 ## Links
 
@@ -68,24 +68,23 @@ N/A
 
 Please refer to the LICENSE in the repo.
 
-## Badges
+## Badges!
 
-![Static Badge](https://img.shields.io/badge/Javascript%20-82%25%20-yellow)
-
+[Static Badge](https://img.shields.io/badge/HTML%20-67%25%20-orange)
 <br>
 
-![Static Badge](https://img.shields.io/badge/CSS%20-7%25%20-purple)
+![Static Badge](https://img.shields.io/badge/CSS%20-12%25%20-purple)
 <br>
 
-![Static Badge](https://img.shields.io/badge/HTML%20-11%25%20-orange)
+![Static Badge](https://img.shields.io/badge/Javascript%20-21%25%20-yellow)
 
 ## Features
 
-JavaScript, variables, functions, if statements, callback functions, DOM HTML, time inerval, etc.
+JavaScript, variables, functions, arrow functions, conditional statements, DOM HTML, time inerval, etc.
 <br>
-CSS, reset.
+CSS starter template.
 <br>
-Basic HTML template with semantic elements.
+HTML template with semantic elements, save buttons, etc.
 
 ## Tests
 
