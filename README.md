@@ -1,101 +1,94 @@
 # Daily-Work-Scheduler
 
-# 05 Third-Party APIs: Work Day Scheduler
-
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
 You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
 
-## User Story
+## Description
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+The main goal of this project is to Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and will feature dynamically updated HTML and CSS powered by jQuery. It will also have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+<br>
+After completion of the project, I have a better understanding on declaring/calling variables, functions, arrow-functions, if-statments, callbacks and for loops. I also learned some better ways to refactor the JavaScript code, thus making the code easier to read and more modular!
 
-## Acceptance Criteria
+## Table of Contents
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [Tests](#tests)
+- [Links](#links)
 
-The following animation demonstrates the application functionality:
+## Installation
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+Chrome and/or Firefox are the preferred browsers to view to the program.
+<br>
+For the IDE, use Vs Code as well as the "Open with Live Server" Extension.
 
-## Grading Requirements
+Steps Include:
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+- Install tools (Highly recommend an up to date web browser for JavaScript)
+- Clone repository
+- Pull to local sytem
+- Create environment using extension
 
-This Challenge is graded based on the following criteria:
+## Usage
 
-### Technical Acceptance Criteria: 40%
+Here's what the expected output should be:
 
-* Satisfies all of the above acceptance criteria plus the following:
+![alt text](assets/Images/screenshot.png)
 
-  * Uses a date utility library to work with date and time
+## Links
 
-### Deployment: 32%
+Link to deployed application:
+<br>
+[logo]: https://prismhead26.github.io/Daily_Work_Scheduler/ "Daily Work Scheduler live application"
+<br>
+Link to HTML file:
+<br>
+[HTML](/index.html)
+<br>
+Link to CSS file:
+<br>
+[CSS](/assets/styles.css)
+<br>
+Link to JavaScript file:
+<br>
+[JavaScript](/assets/script.js)
+<br>
+Link to README file:
+<br>
+[README](/README.md)
 
-* Application deployed at live URL
+## Credits
 
-* Application loads with no errors
+N/A
 
-* Application GitHub URL submitted
+## License
 
-* GitHub repo contains application code
+Please refer to the LICENSE in the repo.
 
-### Application Quality: 15%
+## Badges
 
-* Application user experience is intuitive and easy to navigate
+![Static Badge](https://img.shields.io/badge/Javascript%20-82%25%20-yellow)
 
-* Application user interface style is clean and polished
+<br>
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
+![Static Badge](https://img.shields.io/badge/CSS%20-7%25%20-purple)
+<br>
 
-### Repository Quality: 13%
+![Static Badge](https://img.shields.io/badge/HTML%20-11%25%20-orange)
 
-* Repository has a unique name
+## Features
 
-* Repository follows best practices for file structure and naming conventions
+JavaScript, variables, functions, if statements, callback functions, DOM HTML, time inerval, etc.
+<br>
+CSS, reset.
+<br>
+Basic HTML template with semantic elements.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+## Tests
 
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+In order to test, run the program using the "Open with Live Server" Exstension.
+<br>
+I would also have DevTools open to see the logs.
