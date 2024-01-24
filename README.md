@@ -94,8 +94,18 @@ I would also have DevTools open to see the logs.
 Here are all of the API's used with a reference to their URL.
 
 If any of the API's fail, feel free to insert the updated cdn in the HTML file.
+<br>
+
 [Day.js](https://day.js.org/en/)
+<br>
+
 [jQuery](https://jquery.com/)
+<br>
+
 [bootstrap](https://getbootstrap.com/)
+<br>
+
 [fontAwesome](https://fontawesome.com/)
+<br>
+
 [googleAPIs](https://fonts.google.com/)
