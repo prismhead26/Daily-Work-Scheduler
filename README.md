@@ -40,7 +40,7 @@ Here's what the expected output should be:
 
 Link to deployed application:
 <br>
-[logo]: https://prismhead26.github.io/Daily_Work_Scheduler/ "Daily Work Scheduler live application"
+[logo]: https://prismhead26.github.io/Daily-Work-Scheduler/ "Daily Work Scheduler live application"
 <br>
 Link to HTML file:
 <br>
