@@ -1,4 +1,5 @@
-console.log(dayjs())
+// console.log ensures Day.js is working properly
+// console.log(dayjs())
 // added styling to improve user experience
 $('body').attr('style', 'background: lightslategrey;')
 $('header').attr('style', 'background-color: hsla(50, 33%, 25%, .75);')
