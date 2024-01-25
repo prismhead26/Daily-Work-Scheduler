@@ -13,6 +13,14 @@ $(() => {
     })
     // get current hour from  the Day.js API
     const currentHour = dayjs().format('H')
+    // using Day.js the time is formatted and attached to DOM element
+    // interval set to 1 second to update the date .... tried per hour and basically shows date once per hour
+    time = () => {
+        const dateElement = $('#currentDay')
+        const currentDate = dayjs().format('dddd, MMMM D')
+        dateElement.text(currentDate)
+        }
+        setInterval(time, 60000)
     // save content/text to the localStorage
     saveContent = () => {
         $('.saveBtn').on('click', function() {
@@ -32,16 +40,15 @@ $(() => {
                 $(this).addClass('future')
             }
         })}
-    // using Day.js the time is formatted and attached to DOM element
-    // interval set to 1 second to update the date .... tried per hour and basically shows date once per hour
-    time = () => {
-        const dateElement = $('#currentDay')
-        const currentDate = dayjs().format('dddd, MMMM D')
-        dateElement.text(currentDate)
-        }
-        setInterval(time, 60000)
+        // calling time as the init function
         // call the main functions for text and color and time
         time()
         saveContent()
         colorCode()
+
+        $('.resetBtn').attr('style', 'background-color: lightblue')
+        clearAll = () => {
+            window.localStorage.clear()
+            window.location.reload();
+        }
 })
