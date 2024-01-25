@@ -21,16 +21,6 @@
     />
     <!-- CSS base template -->
     <link rel="stylesheet" href="./assets/styles.css" />
-    <!-- scripts  using defer to load faster for better user experience-->
-    <!-- Javascript APIs -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
-    <script
-        src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-        integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
-        crossorigin="anonymous"
-    defer></script>
-    <!-- main js script -->
-    <script src="./assets/script.js" defer></script>
     <!-- Title of Page -->
     <title>Daily Work Scheduler</title>
 </head>
@@ -68,7 +58,7 @@
         </div>
         <!--hour 12AM -->
         <div id="12" class="row time-block">
-            <div class="col-2 col-md-1 hour text-center py-3">12 (noon)</div>
+            <div class="col-2 col-md-1 hour text-center py-3">12 pm</div>
             <textarea id="content-12" class="col-8 col-md-10 description" rows="3"> </textarea>
             <button class="btn saveBtn col-2 col-md-1" aria-label="save">
             <i class="fas fa-save" aria-hidden="true"></i>
@@ -115,5 +105,14 @@
             </button>
         </div>
     </div>
+        <!-- Javascript APIs -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+            integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+            crossorigin="anonymous"
+        ></script>
+        <!-- main js script -->
+        <script src="./assets/script.js"></script>
 </body>
 </html>
